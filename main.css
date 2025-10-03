@@ -1,0 +1,103 @@
+/* home */
+
+header {
+    text-align: center;
+    background-color: rgb(173, 139, 173);
+    color: rgb(0, 0, 0);
+}
+
+#title{
+    text-align: center;
+    color: rgb(173, 139, 173);
+}
+
+#intro {
+    text-align: center;
+}
+
+/* about section */
+
+#first {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.element {
+    float: left;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill {
+    width: 360px;
+    background-color: aqua;
+}
+
+.project-item {
+    
+    width: 360px;
+    background-color: orangered;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    color: white;
+    padding: 16px; /*just added this */
+}
+
+/* footer for all the pages */
+
+footer {
+    text-align: center;
+    background: grey;
+    color: black; 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*@media (condition) {
+
+}
+*/
+
+
+@media (max-width: 600px) {
+    body{
+        /* font-size 80px */
+        background-color: lightgreen;
+    }
+
+    .project-item {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+    body{
+        background-color: pink;
+    }
+}
+
+/* @media (min-width: 650px) {
+    body {
+        background-color: pink
+    }
+}
+
+min-height & max-height */
+
+/* task 
+--> only from 650px to 800px make the background color in the body tag pink*/
+
+@media (max-width: 400px) {
+    .project-item {
+        width: 200px;
+    }
+} 
