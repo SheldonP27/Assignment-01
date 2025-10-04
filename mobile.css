@@ -1,0 +1,11 @@
+
+  
+main {
+  background-color: rgb(116, 110, 110); 
+  font-size: 15px;
+}
+
+nav ol {
+  display: block;
+  text-align: center;
+}
