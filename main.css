@@ -100,7 +100,7 @@ footer {
 @media (max-width: 600px) {
     body{
         /* font-size 80px */
-        background-color: lightgreen;
+        background-color: rgb(255, 215, 245);
     }
 
     .project-item {
