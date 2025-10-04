@@ -2,14 +2,14 @@
 
 header {
     text-align: center;
-    background-color: rgb(173, 139, 173);
+    background: linear-gradient(45deg,#C2B1FA,#D9B1FA,#F3BEFA,#F1B1FA,#FAB1DE,#FAB1B3);
     color: rgb(0, 0, 0);
 }
 
 #title{
     text-align: center;
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: black
 }
 
 #intro {
